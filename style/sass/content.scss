@@ -1,0 +1,54 @@
+.content {
+	padding: 20px;
+
+	@include bp {
+		margin-top: 90px;
+	}
+
+
+	.item {
+		width: 100%;
+
+		.image-holder{
+			float: left;
+			min-width: 60px;
+			max-width: 281px;
+			margin: 20px;
+
+			@include bp {
+				max-width: none;
+				width: 100%;
+				margin: 0px;
+				margin-bottom: 15px;
+			}
+
+			img {
+				width: 100%;
+				box-shadow: 0 0 10px 1px #000000;
+			}
+		}
+
+		.description {
+			margin: 20px;
+			clear: both;
+		}
+
+		& + &:after {
+			content: "";
+			display: block;
+			height: 1px;
+			width: 94%;
+			margin: 30px;
+			background: $separator;
+			float: left;
+		}
+
+		@include bp {
+			clear: both;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+}

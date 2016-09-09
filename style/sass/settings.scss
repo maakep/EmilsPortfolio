@@ -1,0 +1,15 @@
+$background-color:		#212121;
+
+$container-width:		1024px;
+
+$number-of-menu-items:	4;
+$menu-item-padding:		20px;
+$menu-item-half-pad:	$menu-item-padding/2;
+$menu-item-width:		calc((#{$container-width} / #{$number-of-menu-items}) - (#{$menu-item-half-pad} * #{$number-of-menu-items}));	
+
+$font-stack:			Helvetica, sans-serif;
+$font-color:			#BDBDBD;
+
+$separator:				#131313;
+
+$item-height:			300px;

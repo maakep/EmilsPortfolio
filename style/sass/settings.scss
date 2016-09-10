@@ -26,11 +26,15 @@ $background-image:		url('../img/castle_wall.jpg');
 
 $header-background:		url('../img/header.png');
 
-$background-container:	#49494c;
+$background-container:	#252525;
 $container-shadow:		0px 0px 122px 44px rgba(0,0,0,1);
 
-$menu-item-background:	url('../img/button.png');
+$menu-background:		#000000;
+$menu-shadow:			0 5px 20px 5px #000000;
+$menu-item-background:	url('../img/button.png') no-repeat;
+$menu-item-active-glow:	#EEEE00 0 0 20px;
 
 $img-frame-shadow:		0 0 10px 1px #000000;
+$img-background:		#131313;
 
 $separator-line:		#131313;

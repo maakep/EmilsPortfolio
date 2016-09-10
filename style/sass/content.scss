@@ -15,6 +15,7 @@
 			min-width: 60px;
 			max-width: 281px;
 			margin: 20px;
+			background: $img-background;
 
 			@include bp {
 				max-width: none;

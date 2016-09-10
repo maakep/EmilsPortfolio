@@ -1,5 +1,6 @@
 .content {
 	padding: 20px;
+	min-height: 300px;
 
 	@include bp {
 		margin-top: 90px;
@@ -39,7 +40,7 @@
 			height: 1px;
 			width: 94%;
 			margin: 30px;
-			background: $separator;
+			background: $separator-line;
 			float: left;
 		}
 

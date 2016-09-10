@@ -1,5 +1,6 @@
-$background-color:		#212121;
+// Sizes
 
+$header-height:			300px;
 $container-width:		1024px;
 
 $number-of-menu-items:	4;
@@ -7,17 +8,29 @@ $menu-item-padding:		20px;
 $menu-item-half-pad:	$menu-item-padding/2;
 $menu-item-width:		calc((#{$container-width} / #{$number-of-menu-items}) - (#{$menu-item-half-pad} * #{$number-of-menu-items}));	
 
+
+
+// Typography
 $font-stack:			Helvetica, sans-serif;
 $font-color:			#BDBDBD;
 
-$separator:				#131313;
+$font-stack-p:			$font-stack;
+$font-color-p:			$font-color;
 
-$item-height:			300px;
+$font-stack-h1:			$font-stack;
+$font-color-h1:			$font-color;
+
+
+// Site content
+$background-image:		url('../img/castle_wall.jpg');
+
+$header-background:		url('../img/header.png');
+
+$background-container:	#49494c;
+$container-shadow:		0px 0px 122px 44px rgba(0,0,0,1);
+
+$menu-item-background:	url('../img/button.png');
 
 $img-frame-shadow:		0 0 10px 1px #000000;
 
-$background-image:		url('../castle_wall.jpg');
-
-$container-shadow:		0px 0px 122px 44px rgba(0,0,0,1);
-
-$container-background:	#49494c;
+$separator-line:		#131313;

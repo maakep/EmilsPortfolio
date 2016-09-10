@@ -5,12 +5,18 @@ body {
 	overflow-y: scroll;
 
 	p {
+		font-family: $font-stack-p;
+		color: $font-color-p;
+
 		@include bp {
 			font-size: 30px;
 		}
 	}
 
 	h1 {
+		font-family: $font-stack-h1;
+		color: $font-color-h1;
+
 		@include bp {
 			font-size: 50px;
 		}
@@ -19,7 +25,7 @@ body {
 	.container {
 		margin: auto;
 		width: $container-width;
-		background: $container-background;
+		background: $background-container;
 		box-shadow: $container-shadow;
 		z-index: 0;
 

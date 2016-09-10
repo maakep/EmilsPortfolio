@@ -11,12 +11,18 @@ body {
   font-family: Helvetica, sans-serif;
   color: #BDBDBD;
   overflow-y: scroll; }
-  @media (max-width: 1024px) {
-    body p {
-      font-size: 30px; } }
-  @media (max-width: 1024px) {
-    body h1 {
-      font-size: 50px; } }
+  body p {
+    font-family: Helvetica, sans-serif;
+    color: #BDBDBD; }
+    @media (max-width: 1024px) {
+      body p {
+        font-size: 30px; } }
+  body h1 {
+    font-family: Helvetica, sans-serif;
+    color: #BDBDBD; }
+    @media (max-width: 1024px) {
+      body h1 {
+        font-size: 50px; } }
   body .container {
     margin: auto;
     width: 1024px;
@@ -28,12 +34,11 @@ body {
         width: 100%; } }
     body .container .header {
       width: 100%;
-      height: 300px; }
+      height: 300px;
+      background: url("../img/header.png"); }
       @media (max-width: 1024px) {
         body .container .header {
           display: none; } }
-      body .container .header .header-image img {
-        width: 1024px; }
     body .container .menu {
       width: 100%;
       height: 60px;
@@ -48,7 +53,8 @@ body {
         padding: 20px;
         text-align: center;
         width: calc((1024px / 4) - (10px * 4));
-        height: 20px; }
+        height: 20px;
+        background: url("../img/button.png"); }
         body .container .menu .menu-item.active, body .container .menu .menu-item:hover {
           color: #e2d61f;
           text-shadow: #EEEE00 0 0 20px;
@@ -61,7 +67,8 @@ body {
             height: 50px;
             font-size: 40px; } }
     body .container .content {
-      padding: 20px; }
+      padding: 20px;
+      min-height: 300px; }
       @media (max-width: 1024px) {
         body .container .content {
           margin-top: 90px; } }
@@ -110,7 +117,7 @@ body {
   body .background {
     height: 100%;
     width: 100%;
-    background: url("../castle_wall.jpg");
+    background: url("../img/castle_wall.jpg");
     top: 0;
     position: fixed;
     z-index: -1; }

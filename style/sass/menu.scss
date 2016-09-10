@@ -18,7 +18,7 @@
 		height: 28px;
 		
 		background: $menu-item-background;
-		background-size: cover;
+		background-size: 100% 100%;
 
 		&.active {
 			color: #e2d61f;
@@ -34,7 +34,6 @@
 			width: calc((100% / #{$number-of-menu-items}) - (#{$menu-item-padding} * 2));
 			height: 50px;
 			font-size: 40px;
-			background-size: 100% 100%;
 		}
 	}
 }

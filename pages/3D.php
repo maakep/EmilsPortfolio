@@ -11,6 +11,7 @@ foreach($folders as $folder) {
 
 		<?
 		$files = glob('../game-art/' . $art . '/' . $folder . '/*.{jpg,png,gif,jpeg}', GLOB_BRACE);
+		sort($files);
 		foreach($files as $file) {
 		?>	
 

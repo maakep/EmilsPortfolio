@@ -50,4 +50,58 @@ body {
 		position: fixed;
 		z-index: -1;
 	}
+
+
+	a {
+		text-decoration: none;
+		color: $link-color;
+
+		&:hover {
+			color: $link-hover-color;
+		}
+	}
 }
+
+
+.contact-content {
+
+	@include bp {
+		flex-direction: column;
+	}
+
+	.contact-input {
+		background: none;
+		border: none;
+		outline: none;
+		text-align: center;
+		color: $link-color;
+		font-style: italic;
+
+
+		@include bp {
+			font-size: 20px;
+		}
+
+		&:hover {
+			color: $link-hover-color;
+		}
+	}
+
+	.contact-item {
+		transition: all .2s ease-in-out;
+
+		&:hover {
+			transform: scale(1.2);
+		}
+
+		@include bp {
+			padding: 100px;
+
+			img {
+				height: 150px;
+			}
+		}
+	}
+}
+
+@import 'helpers';

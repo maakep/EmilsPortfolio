@@ -16,7 +16,11 @@
 		text-align: center;
 		width: $menu-item-width;
 		height: 28px;
-		
+		line-height: 28px;
+		font-family: $menu-font;
+		font-size: 25px;
+		color: $menu-font-color;
+
 		background: $menu-item-background;
 		background-size: 100% 100%;
 
@@ -33,6 +37,8 @@
 		@include bp {
 			width: calc((100% / #{$number-of-menu-items}) - (#{$menu-item-padding} * 2));
 			height: 50px;
+			line-height: 50px;
+
 			font-size: 40px;
 		}
 	}

@@ -1,3 +1,9 @@
+// Custom font
+@font-face {
+    font-family: 'Black Castle';
+    src: url('../img/BlackCastleMF.ttf');
+}
+
 // Sizes
 
 $header-height:			300px;
@@ -5,6 +11,8 @@ $container-width:		1024px;
 
 $number-of-menu-items:	4;
 $menu-item-padding:		20px;
+
+//Ignnore these
 $menu-item-half-pad:	$menu-item-padding/2;
 $menu-item-width:		calc((#{$container-width} / #{$number-of-menu-items}) - (#{$menu-item-half-pad} * #{$number-of-menu-items}));	
 
@@ -18,8 +26,10 @@ $font-stack-p:			$font-stack;
 $font-color-p:			$font-color;
 
 $font-stack-h1:			$font-stack;
-$font-color-h1:			$font-color;
+$font-color-h1:			#e2d61f;
 
+$link-color:			#e2d61f;
+$link-hover-color:		#cbc22f;
 
 // Site content
 $background-image:		url('../img/castle_wall.jpg');
@@ -33,8 +43,15 @@ $menu-background:		#000000;
 $menu-shadow:			0 5px 20px 5px #000000;
 $menu-item-background:	url('../img/button.png') no-repeat;
 $menu-item-active-glow:	#EEEE00 0 0 20px;
+$menu-font:				'Black Castle';
+$menu-font-color:		#000000;
 
 $img-frame-shadow:		0 0 10px 1px #000000;
 $img-background:		#131313;
 
 $separator-line:		#131313;
+
+$footer-background:		url('../img/footer.png');
+
+
+

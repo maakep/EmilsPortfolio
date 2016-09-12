@@ -1,6 +1,9 @@
 <div class="content">
-	<h1>Welcome to muh site!</h1>
+	<h1>Welcome to my portfolio!</h1>
 	<p>
-		yada yada yada rush 2112 roundabout yeyeye a roundabout, as cold as ice
+		Have a look around and please enjoy your stay. 
+	</p>
+	<p>
+		For questions, requests or any inquiries - please feel free to send me a message!
 	</p>
 </div>

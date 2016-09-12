@@ -10,7 +10,7 @@ Requires Sass to build use build-sass.bat to build all scss-files to main.css:
 
 
 ## How to use it
-### Changing a value in Settings.scss
+### Changing a value in style/sass/settings.scss
 
 1. Make a change in Settings.scss
 2. Make sure `build-sass.bat` was running, or start it now (will build on start and then listen for changes)

@@ -148,8 +148,6 @@ body {
 @media (max-width: 1024px) {
   .contact-content {
     flex-direction: column; } }
-.contact-content .about {
-  padding: 0 80px 0 80px; }
 .contact-content .contact-input {
   background: none;
   border: none;

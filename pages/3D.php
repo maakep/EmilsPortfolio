@@ -25,7 +25,7 @@ foreach($folders as $folder) {
 
 		<div class="description">
 			<p>
-				<? echo $desc ?>
+				<? echo utf8_encode($desc); ?>
 			</p>
 		</div>
 	</div>

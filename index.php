@@ -3,6 +3,7 @@
 	<head prefix="og: http://ogp.me/ns# profile: http://ogp.me/ns/profile#">
 		<meta name="Description" content="Portfolio of the 2D and 3D game art made by Emil Hallin">
 		<meta name="Keywords" content="2D 3D art portfolio Emil Hallin">
+		<meta charset="utf-8">
 		
 
 		<meta property="og:title" content="Emil Hallin">

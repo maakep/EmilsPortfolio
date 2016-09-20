@@ -17,6 +17,7 @@
 			max-width: 281px;
 			margin: 20px;
 			background: $img-background;
+			box-shadow: $img-frame-shadow;
 
 			@include bp {
 				max-width: none;
@@ -27,7 +28,6 @@
 
 			img {
 				width: 100%;
-				box-shadow: $img-frame-shadow;
 			}
 		}
 

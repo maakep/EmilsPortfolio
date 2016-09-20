@@ -1,1 +1,4 @@
-desc about this game
+Molecubes was made for our final school gameproject at Malmö Högskola. The game was made in the Unreal Engine and the models were created and animated in Blender.
+Materials and textures were added in the engine. These characters are the two different enemy types in game, the BoxBot and the ShooterBot. The BoxBot can walk
+and smash your defense, while the ShooterBot moves using its tank treads and is equipped with a laser rifle. The models and animations took about 2-3 weeks
+of half-time work to complete.

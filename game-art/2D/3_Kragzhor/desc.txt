@@ -1,1 +1,3 @@
-desc about this game
+Kragzhor was made for Ludum Dare 33, which is a 72-hour game jam competition. In this game you play as the monster Kragzhor, shown above is his walking
+and attacking animations. The enemy is the humans which there are 3 types of, villager, bowman and knight, these are their each respective walking animations.
+The game is viewed from a top-down perspective allowing characters to move freely in all directions. Made in PyxelEdit.

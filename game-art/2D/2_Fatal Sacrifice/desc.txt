@@ -1,1 +1,3 @@
-desc about this game
+Fatal Sacrifice was made for the Global Game Jam 2016. I tried to make the art-style here as simplistic as possible and only using as little
+detail as necessary. There are three main main troops: clubman, spearman and blowdartman. They each have an idle, walk and an attack animation. 
+The last animation is the high priest idle animation. Made in PyxelEdit.

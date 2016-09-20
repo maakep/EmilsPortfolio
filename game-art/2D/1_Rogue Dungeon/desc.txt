@@ -1,1 +1,2 @@
-desc about this game
+Rogue Dungeon was made for our Bachelor's degree in Computer Science at Malmö Högskola. The game was made in the Unity Engine and all the art was made
+using the pixel-art program PyxelEdit. These animations are the attack animation of three different characters, the Warrior, the Archer and the Skeleton.

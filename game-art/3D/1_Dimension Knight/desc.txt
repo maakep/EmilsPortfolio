@@ -1,1 +1,4 @@
-desc about this game
+Dimension Knight was made for the Castle Game Jam 2016 where in I made most of the graphics. The game was made in the Unity Engine and the models
+were created, textured and animated in Blender. The two characters in the game are the Knight and the Dragon, which can be seen above. 
+What is shown is the Knight walking aninmation, the Dragon flying animation, their untextured models and their texture maps (made in Photoshop).
+This took about 2.5 days to make working full time.
